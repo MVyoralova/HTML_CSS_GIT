@@ -2,18 +2,32 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f4f4f4;
+    background-color: #0b0b0b;
 }
 
 /* Style for the H1 heading */
 h1 {
-    color: #333366; /* Dark blue color */
-    border-bottom: 2px solid #333366;
+    color: #df5b0f; 
+    border-bottom: 2px solid #ff6f61;
     padding-bottom: 10px;
+    color: #ff6f61;
+     animation: shake 0.5s infinite;
 }
 
+h2 {
+    color: #ff6f61; 
+}
+
+nav ul li {
+    color: white; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; /* odstraní podtržení */
+}
 /* Style for the paragraph */
 p {
-    color: #555555; /* Gray color */
+    color: rgb(245, 240, 240);
     line-height: 1.6;
 }
