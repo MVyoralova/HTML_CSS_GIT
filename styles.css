@@ -25,6 +25,31 @@ nav ul li {
 nav ul li a {
     color: white; 
     text-decoration: none; /* odstraní podtržení */
+
+}
+
+/* Menu - seznam s tečkama  a položky pod sebou */
+nav ul {
+    list-style: disc;
+    gap: 30px;                 /* mezera mezi odkazy */
+    padding-left: 20;                /* odstraní výchozí padding */
+    margin-bottom: 20px;       /* mezera pod menu */
+}
+
+/* Menu - jednotlivé odkazy */
+nav ul li a {
+    color: white;              /* barva textu odkazu */
+    text-decoration: none;     /* odstraní podtržení */
+    font-weight: bold;
+    padding: 5px 10px;         /* prostor kolem textu */
+    border-radius: 5px;        /* jemně zaoblené rohy */
+    transition: background-color 0.3s, color 0.3s; /* hladký přechod při hover */
+}
+
+/* Menu - efekt při najetí myší */
+nav ul li a:hover {
+    background-color: #ff6f61; /* oranžové pozadí */
+    color: #0b0b0b;            /* text ztmavne */
 }
 /* Style for the paragraph */
 p {

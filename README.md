@@ -7,7 +7,7 @@
   b) Vytvor alespon dve kapitoly s nadpisy H2 a do kazde kapitoly pridej nejaky odstavec.
   c) Vytvor menu, ktere bude odkazovat na dane kapitoly (tj. na ty nadpisy H2).
   d) Libovolnym zpusobem uprav CSS soubor.
-6) Veskere zmeny synchronizuj zpatky na github (git push). 
+6)(ukol je Veskere zmeny synchronizuj zpatky na github (git push)
 7) Vytvor pull request. **Zkontroluj odkud kam chces mergovat** . Chces mergovat do sveho mainu ze sve feature branche. Tim, ze se jedna o fork meho repa bude defaultne nastaveno "kam" moje repository, tak tam prosim ne. 
 8) Zmeny zamerguj do mainu.
 9) Sve stranky publikuj pres gitHub pages -> Settings -> Pages -> vyber main branch a potvrd.
